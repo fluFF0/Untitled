@@ -56,15 +56,147 @@ body {
   max-width: 60%;
 }
 
+.header__form {
+  display: flex;
+  gap: 18px;
+}
+
 .header__start {
   background-color: #111a4a;
   color: #fff;
   border-radius: 8px;
   box-shadow: 0px 0px #111a4a;
-  justify-content: center;
   margin-left: 6%;
   font-size: 16px;
   width: 163px;
   height: 44px;
   font-weight: 200;
+  display: flex;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__read {
+  width: 204px;
+  height: 44px;
+  font-size: 16px;
+  color: #232730;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.curl {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+.curl__wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #111a4a;
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  gap: 2px;
+  width: 491px;
+  height: 144px;
+  padding: 12px 0 0 16px;
+  position: absolute;
+  box-shadow: 0 40px 2%;
+}
+
+.curl__title {
+  color: #c1aaf1;
+  padding-bottom: 5px;
+}
+
+.curl__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.curl__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.curl__item {
+  display: flex;
+  color: #fff;
+}
+
+.curl__d {
+  width: 50px;
+}
+
+.curl__last {
+  color: #f5c68c;
+}
+
+.curl__three {
+  color: #abe6ee;
+}
+
+.transfers__img {
+  padding: 49px 0 144px 68px;
+}
+
+.beginning {
+  background-color: #eef4fb;
+}
+
+.beginning__word {
+  font-size: 16px;
+  padding: 74px 0 24px 84px;
+}
+
+.beginning__wrapper {
+  display: flex;
+  gap: 60px;
+  padding: 0 83px 0 68px;
+}
+
+.financial {
+  font-size: 54px;
+  padding-bottom: 97px;
+}
+
+.beginning__text {
+  color: #7c7f88;
+  padding-right: 85px;
+}
+.column {
+  padding-top: 174px;
+}
+
+.beginning__right {
+  display: flex;
+}
+
+.right__left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+  padding-right: 95px;
+}
+
+.right__word {
+}
+
+.right_img {
+  position: absolute;
+}
+#one {
+  position: absolute;
+  padding-top: 191px;
 }

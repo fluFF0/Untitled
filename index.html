@@ -19,13 +19,100 @@
         <form action="#" class="header__form">
           <button class="header__start">
             Start building
-            <img src="img/right.svg" alt="right" />
+            <img src="img/right.svg" alt="right" class="header__img" />
           </button>
           <button class="header__read">Read documentation</button>
         </form>
+        <div class="header__block">
+          <div class="curl">
+            <div class="curl__wrapper">
+              <span class="curl__title"
+                >curl
+                <a href="#" class="curl__link"
+                  >https://api.column.com/transfers/wire</a
+                >
+              </span>
+              <ul class="curl__list">
+                <li class="curl__item">
+                  <p>-u :prod_1vWeqakwT2N7NYRtZkUPSBt4scn</p>
+                </li>
+                <li class="curl__item">
+                  <p class="curl__d">-d</p>
+                  <p class="curl__three">counterparty_id</p>
+                  <p class="curl__last">=</p>
+                  <p>cpty_1vWeqakwT2N7NYRtZkUPSBt4scn</p>
+                </li>
+                <li class="curl__item">
+                  <p class="curl__d">-d</p>
+                  <p class="curl__three">bank_account_id</p>
+                  <p class="curl__last">=</p>
+                  <p>bacc_1vWeqakwT2N7NYRtZkUPSBt4scn</p>
+                </li>
+                <li class="curl__item">
+                  <p class="curl__d">-d</p>
+                  <p class="curl__three">amount</p>
+                  <p class="curl__last">=</p>
+                  <p class="curl__three">40000</p>
+                </li>
+                <li class="curl__item">
+                  <p class="curl__d">-d</p>
+                  <p class="curl__three">description</p>
+                  <p class="curl__last">=</p>
+                  <p class="curl__last">"Visa daily settlement"</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img src="img/Transfers.png" alt="Transfers" class="transfers__img" />
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="beginning">
+        <div class="container">
+          <p class="beginning__word">Our advantage</p>
+          <div class="beginning__wrapper">
+            <div class="beginning__left">
+              <p class="financial">Financial services as code</p>
+              <p class="before">Before Column</p>
+              <p class="beginning__text">
+                new financial companies had to work through expensive middleware
+                providers that wrapped legacy sponsor banks. These relied upon
+                outdated and limiting core systems.
+              </p>
+              <p class="column">Column</p>
+              <p class="beginning__text">
+                allows you to get to the bare metal. We are a bank made for
+                developers and we have built our own core, ledger, and data
+                model for the purpose of powering your unique use case, at any
+                scale.
+              </p>
+            </div>
+            <div class="beginning__right">
+              <div class="right__left">
+                <p class="right__word">Company</p>
+                <p class="right__word">Middleware Providers</p>
+                <p class="right__word">Core Systems</p>
+                <p class="right__word">Sponsor Bank</p>
+                <p class="right__word">Federal Reserve</p>
+              </div>
+              <div class="right__right">
+                <img
+                  src="img/round/One.svg"
+                  alt="round"
+                  class="right__img"
+                  id="one"
+                />
+                <img src="img/round/Two.svg" alt="round" class="right__img" />
+                <img src="img/round/Three.svg" alt="round" class="right__img" />
+                <img src="img/round/Four.svg" alt="round" class="right__img" />
+                <img src="img/round/Five.svg" alt="round" class="right__img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
